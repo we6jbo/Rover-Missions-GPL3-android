@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/RoverViewer"
+        android:layout_width="395dp"
+        android:layout_height="160dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <WebView
+        android:id="@+id/RoverControls"
+        android:layout_width="395dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="392dp"
+        android:layout_height="403dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="11dp" />
+
+</android.support.constraint.ConstraintLayout>
